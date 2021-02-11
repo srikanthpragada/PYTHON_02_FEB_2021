@@ -6,5 +6,7 @@ def wish(name, message):
 wish('Van', 'Hi')
 wish('Bob', 'Good Moring')
 
+
+
 # keyword arguments
 wish(message='Hello', name='Steve')
