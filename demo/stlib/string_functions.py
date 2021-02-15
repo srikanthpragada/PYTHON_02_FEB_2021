@@ -20,4 +20,5 @@ def countdigits(st):
     return count
 
 
-print("String Functions 1.0")
+if __name__  == '__main__':
+   print("String Functions 1.0")
