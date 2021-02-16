@@ -6,5 +6,8 @@ for s in sorted(names):
 for s in sorted(names, key=lambda st: st.replace(" ", '')):
     print(s)
 
-for s in sorted(map(lambda st: st.replace(" ", ''), names)):
-    print(s)
+# for s in sorted(names, key=str.replace):
+#     print(s)
+
+# for s in sorted(map(lambda st: st.replace(" ", ''), names)):
+#     print(s)
