@@ -1,4 +1,5 @@
 class Account:
+    minbal = 10000
     # Constructor
     def __init__(self, acno, ahname, balance=0):
         # Object attributes
