@@ -3,6 +3,15 @@ class Person:
         self.name = name
         self.age = age
 
+    @property
+    def category(self):
+        if self.age < 30:
+            return "Young"
+        elif self.age < 60:
+            return "Middle-aged"
+        else:
+            return "Old"
+
     def __str__(self):
         return f"{self.name} - {self.age}"
 
@@ -14,6 +23,7 @@ class Person:
 
 
 p1 = Person("Mike", 30)  # p1.__init__('Mike',30)
+print(p1.category)
 p2 = Person("Mike", 30)
 print(p1 == p2)
 print(p1)  # str(p1) -> p1.__str__()
