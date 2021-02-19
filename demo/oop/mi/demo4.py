@@ -15,6 +15,6 @@ class C(A):
 class D(B, C):
     pass
 
-
+print(D.mro())
 obj = D()
 obj.process()
