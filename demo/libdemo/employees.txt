@@ -1,0 +1,7 @@
+Sales,Scott,390000
+Sales,Joe,375000
+IT,Jack,560000
+IT,Bob,398000
+HR,Belinda,560000
+HR,Steve,450000
+IT,Mike,760000
